@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace CheeseMVC.ViewModels
 {
-    public class AddCategoryViewModel
+    public class AddMenuViewModel
     {
-        [Required(ErrorMessage = "Category name cannot be empty")]
-        [Display(Name = "Category")]
+        [Required(ErrorMessage = "Menu name cannot be empty")]
+        [Display(Name = "Menu")]
         public string Name { get; set; }
     }
 }
